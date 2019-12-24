@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<?=CanaryPHP\Load::assign('title')?>
+	<?=CanaryPHP\Load::assign('description')?>
+	<?=CanaryPHP\Load::assign('css')?>
+	<?=CanaryPHP\Load::assign('js')?>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<noscript><h4><?=_("Enable javascript to access site")?></h4><style type="text/css">.sub-body{display:none;}</style></noscript>
+<div class="sub-body">

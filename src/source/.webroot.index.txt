@@ -1,0 +1,31 @@
+<?php
+/**
+ * CanaryPHP(tm) : Rapid Development Framework (canaryphp@gmail.com)
+ * Copyright (c) Canaryphp Software Foundation, Inc. (canaryphp@gmail.com)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright Copyright (c) Canaryphp Software Foundation, Inc. (canaryphp@gmail.com)
+ * @link      https://github.com/canaryphp/canaryphp CanaryPHP(tm) Project
+ * @since     1.0
+ * @license   https://opensource.org/licenses/mit-license.php MIT License
+ */
+require dirname(__DIR__).DIRECTORY_SEPARATOR.'index.php';
+/**
+ *
+ * To set new title : pass('title','your new title');
+ *
+ * To set new description : pass('description','your_new description');
+ *
+ * Load page view CanaryPHP\Load::content();
+ *
+ * Advanced :
+ *          - Load default page CanaryPHP\Load::content('pages/404.php');
+ *          - Load without default header and footer CanaryPHP\Load::default_get('pages/404.php');
+ *
+ *
+ *
+ */
+CanaryPHP\Load::content();

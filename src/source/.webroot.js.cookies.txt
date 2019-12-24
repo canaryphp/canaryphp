@@ -1,0 +1,4 @@
+if(navigator.cookieEnabled){}else{
+	alert("Cookies are  disabled, Enabled To Access Site </h4><br><h4>ملفات تعريف الإرتباط غير مفعلة ، قم بتفعيلها للوصول للموقع");
+	document.querySelector("body").innerHTML = "<h4> Cookies are  disabled, Enabled To Access Site </h4><br><h4>ملفات تعريف الإرتباط غير مفعلة ، قم بتفعيلها للوصول للموقع</h4>";
+}

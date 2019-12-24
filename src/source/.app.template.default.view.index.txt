@@ -1,0 +1,25 @@
+<?php
+/**
+ * CanaryPHP(tm) : Rapid Development Framework (canaryphp@gmail.com)
+ * Copyright (c) Canaryphp Software Foundation, Inc. (canaryphp@gmail.com)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright Copyright (c) Canaryphp Software Foundation, Inc. (canaryphp@gmail.com)
+ * @link      https://github.com/canaryphp/canaryphp CanaryPHP(tm) Project
+ * @since     1.0
+ * @license   https://opensource.org/licenses/mit-license.php MIT License
+ */
+use CanaryPHPTools\ArrayTranslate;
+$tr = new ArrayTranslate();
+?>
+<div class="text-center">
+	<h1><?=_a('WELCOME')?></h1>
+	<p><?=_a('DB')?><?=get('db_status')?></p>
+	<p><?=_a('SMTP')?><?=get('smtp_status')?></p>
+	<p><?=_a('COPY')?><?=date('Y')?></p>
+	<?=get('smtp_debug')?>
+	<?=get('db_exception')?>
+</div>

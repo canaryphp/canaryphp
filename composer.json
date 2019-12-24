@@ -1,0 +1,32 @@
+{
+    "name": "canaryphp/canaryphp",
+    "type": "library",
+    "description": "Rapid Development Framework for php",
+    "authors":[
+        {
+            "name": "Mohammed boubazine",
+            "email": "canaryphp@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "wiki": "https://github.com/canaryphp/canaryphp/wiki",
+        "issues": "https://github.com/canaryphp/canaryphp/issues"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "canaryphp/canaryphptools": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "suggest": {
+        "canaryphp/canaryphptools": "Use some necessary properties"
+    },
+    "autoload": {
+		"psr-4": {
+            "CanaryPHP\\": "src/"
+        }
+    },
+    "license": "MIT"
+}

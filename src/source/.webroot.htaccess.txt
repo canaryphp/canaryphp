@@ -1,0 +1,8 @@
+RewriteEngine On
+#ERRORS PAGES
+ErrorDocument 400 /CanaryPHP/test/errors/400.php
+ErrorDocument 401 /CanaryPHP/test/errors/401.php
+ErrorDocument 402 /CanaryPHP/test/errors/402.php
+ErrorDocument 403 /CanaryPHP/test/errors/403.php
+ErrorDocument 404 /CanaryPHP/test/errors/404.php
+ErrorDocument 500 /CanaryPHP/test/errors/500.php

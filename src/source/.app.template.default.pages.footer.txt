@@ -1,0 +1,4 @@
+<?=CanaryPHP\Load::assign('bottomjs')?>
+</div>
+</body>
+</html>

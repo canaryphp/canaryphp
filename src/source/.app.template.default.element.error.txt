@@ -1,0 +1,1 @@
+<font class="text text-danger">{CONTENT}</font>
